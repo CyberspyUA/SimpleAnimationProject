@@ -46,19 +46,21 @@ You can change the animation behavior directly in [src/main.cpp](src/main.cpp):
 - `ballRadius` controls the ball size
 - `delay(10)` controls the frame rate
 
-## Screenshots
-
-Add PNG screenshots here to show the project in action.
-
-- `assets/images/screenshot-1.png`
-- `assets/images/screenshot-2.png`
-
 ## GIFs
 
-Add animated GIFs here to demonstrate the motion on the display.
+### Demo GIFs
 
-- `assets/gifs/demo.gif`
-- `assets/gifs/animation-preview.gif`
+<p align="center">
+   <img src="assets/gifs/demo.gif" alt="Demo GIF" width="320">
+</p>
+
+<p align = "center" style="font-size: 16px;"> <b>Displaying animation</b></p>
+
+<p align="center">
+   <img src="assets/gifs/reset.gif" alt="Reset GIF" width="320">
+</p>
+
+<p align = "center" style="font-size: 16px;"> <b>Resetting animation</b></p>
 
 ## Libraries
 
@@ -72,3 +74,11 @@ The project includes these libraries in `lib/`:
 
 - The display is initialized at address `0x3C`.
 - If the OLED does not start, the sketch currently stops in an infinite loop during initialization failure.
+
+## License
+
+This project is licensed under the terms described in [license/license.md]
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request.
